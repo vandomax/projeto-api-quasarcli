@@ -1,7 +1,7 @@
 <template>
   <div class="q-pa-md">
     <q-table
-      title="Equipe TI"
+      title="Equipe ASG"
       :rows="this.posts.data"
       :columns="columns"
       row-key="name"
@@ -71,7 +71,7 @@ export default defineComponent({
 
     const getPosts = async () => {
       try {
-        const { data } = await api.get('http://localhost:8000/api/equipe-ti')
+        const { data } = await api.get('http://localhost:8000/api/equipe-sg')
         posts.value = data
       } catch (error) {
         console.error(error)

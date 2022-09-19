@@ -1,7 +1,8 @@
 <template>
   <q-item
     clickable
-    :to="route"
+    tag="a"
+    :href="link"
     exact
   >
     <q-item-section
@@ -36,9 +37,9 @@ export default defineComponent({
       default: ''
     },
 
-    route: {
+    link: {
       type: String,
-      default: ''
+      default: '#'
     },
 
     icon: {

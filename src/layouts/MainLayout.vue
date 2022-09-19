@@ -51,10 +51,64 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'Home',
-    caption: '',
-    icon: 'home',
-    route: { name: 'home' }
+    title: 'Equipe-Administrativo',
+    icon: 'menu',
+    link: '/#/equipe-administrativo'
+  },
+  {
+    title: 'Equipe-Comercial',
+    icon: 'menu',
+    link: '/#/equipe-comercial'
+  },
+  {
+    title: 'Equipe-Cs',
+    icon: 'menu',
+    link: '/#/equipe-cs'
+  },
+  {
+    title: 'Equipe-Dados',
+    icon: 'menu',
+    link: '/#/equipe-dados'
+  },
+  {
+    title: 'Equipe-Direcao',
+    icon: 'menu',
+    link: '/#/equipe-direcao'
+  },
+  {
+    title: 'Equipe-Financeiro',
+    icon: 'menu',
+    link: '/#/equipe-financeiro'
+  },
+  {
+    title: 'Equipe-Marketing',
+    icon: 'menu',
+    link: '/#/equipe-marketing'
+  },
+  {
+    title: 'Equipe-Produto',
+    icon: 'menu',
+    link: '/#/equipe-produto'
+  },
+  {
+    title: 'Equipe-Rh',
+    icon: 'menu',
+    link: '/#/equipe-rh'
+  },
+  {
+    title: 'Equipe-Asg',
+    icon: 'menu',
+    link: '/#/equipe-sg'
+  },
+  {
+    title: 'Equipe-Suporte',
+    icon: 'menu',
+    link: '/#/equipe-suporte'
+  },
+  {
+    title: 'Equipe-TI',
+    icon: 'menu',
+    link: '/#/'
   }
 ]
 
